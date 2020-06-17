@@ -18,7 +18,7 @@ const container = {
     border: '1px solid #111',
     padding: '12px',
   },
-},
+}
 
 export default merge(theme, {
   ...theme,
