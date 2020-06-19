@@ -11,7 +11,6 @@ export default ({ sliceName }) => {
 	PricingTable: () => dynamic(() => import('essential-slices/src/slices/PricingTable/index.js')),
 	TestimonialsSlider: () => dynamic(() => import('essential-slices/src/slices/TestimonialsSlider/index.js')),
 	VideoHighlights: () => dynamic(() => import('essential-slices/src/slices/VideoHighlights/index.js')),
-	CallToAction2: () => dynamic(() => import('./slices/CallToAction2/index.js')),
 	CallToActionFive: () => dynamic(() => import('./slices/CallToActionFive.js')),
  })[sliceName]
  return component(sliceName)()

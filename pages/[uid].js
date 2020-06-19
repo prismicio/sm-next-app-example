@@ -1,5 +1,3 @@
-import fs from "fs";
-
 import { Client } from '../prismic'
 import SliceZone from 'next-slicezone'
 import { useGetStaticProps, useGetStaticPaths } from 'next-slicezone/hooks'
@@ -10,7 +8,6 @@ const Page = ({ uid, registry, slices }) =>
   <SliceZone resolver={resolver} registry={registry} slices={slices} />
 
 export const getStaticProps = useGetStaticProps({
-  fs,
   client: Client(),
   uid: ({ params }) => params.uid
 })

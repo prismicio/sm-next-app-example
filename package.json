@@ -6,7 +6,9 @@
     "dev": "next dev",
     "export": "next export",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "essential-slices": "^0.0.2",
@@ -24,6 +26,9 @@
     "theme-ui": "^0.3.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0",
     "babel-plugin-root-import": "^6.5.0",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2"
