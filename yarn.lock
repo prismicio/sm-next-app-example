@@ -7503,10 +7503,10 @@ neo-async@2.6.1, neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-next-slicezone@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/next-slicezone/-/next-slicezone-0.0.1.tgz#edb1fe99a439da5d4b89e377cac751889023da1d"
-  integrity sha512-EirikBl79Rl1yROiIi6jt2y4iTfgQUdwsQwGuRaB+awib/mPfrM8sdz8PvgsbLufs6AfnflwycJezTEdjhI9bA==
+next-slicezone@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/next-slicezone/-/next-slicezone-0.0.2.tgz#32e73d1b31a26db9d415100c6e7ca7ee49e579ee"
+  integrity sha512-hvodhNMJCtjwhtTRKD2qJw0QU07AoEODsZZ/QHOKBEdFzNuB6gnC5F/FGczAghofg8c7HsHCaLsTLOKQ3uiH+A==
   dependencies:
     slash "^3.0.0"
     sm-commons "^0.0.21"

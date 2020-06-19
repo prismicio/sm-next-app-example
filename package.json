@@ -13,7 +13,7 @@
   "dependencies": {
     "essential-slices": "^0.0.2",
     "next": "9.4.4",
-    "next-slicezone": "^0.0.1",
+    "next-slicezone": "^0.0.2",
     "next-transpile-modules": "^3.3.0",
     "prismic-cli": "^3.7.11",
     "prismic-javascript": "^3.0.0",

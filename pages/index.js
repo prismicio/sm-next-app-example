@@ -15,20 +15,18 @@ const Home = ({ slices, registry }) => (
     <main>
       <h1 className="title">
         Welcome to <a href="https://nextjs.org">Next.js!</a>
-        <a href="/homepage">Go to homepage</a>
       </h1>
+      <a href="/homepage">Go to homepage</a>
       <div>
-        <p>slices: {slices ? slices.length : 'none'}</p>
+        <p>slices: {slices ? slices.length : "none"}</p>
         <SliceZone />
         <ul>
-          {
-            registry && Object.keys(registry).map(e => <li key={e}>{e}</li>)
-          }
+          {registry && Object.keys(registry).map((e) => <li key={e}>{e}</li>)}
         </ul>
       </div>
     </main>
   </div>
-)
+);
 
 export const getStaticProps = useGetStaticProps({
   client: Client(),
