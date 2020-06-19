@@ -28,6 +28,10 @@ To learn more on SliceMachine:
 
 Default slices use [theme-ui](https://theme-ui.com). To change the default theme, merge your own theme with it (see `/utils/theme`) and pass it to the ThemeProvider in `pages/_app`.
 
+## Storybook
+
+Local slices can be previewed in Storybook. To do so, I ran the command `npx prismic-cli@alpha sm --add-storybook --framework next`. Each slice created via the `--create-slice` command comes with a Storybook story and a mocked API response from Prismic.
+
 ## Deploy
 Deploy command depends on your provider
 
